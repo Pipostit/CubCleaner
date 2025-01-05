@@ -1,0 +1,6 @@
+# Goal
+This project aim to repair a broken vacuum cleaner (Taurus : UNLIMITED 29.0 LITHIUM)
+- Battery and PCB are dead. I suspect a short on the mainboard
+- Solution: Redo the pcb and the battery pack
+
+8 li-on cell were used in the original holder, an BMs is used outside of the scope of this design (https://www.aliexpress.com/item/1005004441321493.html)
