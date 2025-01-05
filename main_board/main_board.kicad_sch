@@ -1,0 +1,183 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ff7f1996-9589-4eab-9c32-416ef4c5b58f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 64.77 76.2)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "44739cfa-0bdc-40e4-bf86-d99b591b02e2")
+		(property "Sheetname" "IO"
+			(at 64.77 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IO.kicad_sch"
+			(at 64.77 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main_board"
+				(path "/ff7f1996-9589-4eab-9c32-416ef4c5b58f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 74.93)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5247b4af-f5a7-49eb-951a-83ff128369aa")
+		(property "Sheetname" "Power"
+			(at 27.94 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 27.94 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Champ2" ""
+			(at 27.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "main_board"
+				(path "/ff7f1996-9589-4eab-9c32-416ef4c5b58f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 57.15)
+		(size 12.7 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "668cc834-73dd-483b-abfd-6d054807090d")
+		(property "Sheetname" "SoftSwitch"
+			(at 27.94 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SoftSwitch.kicad_sch"
+			(at 27.94 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Champ2" ""
+			(at 27.94 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "main_board"
+				(path "/ff7f1996-9589-4eab-9c32-416ef4c5b58f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 57.15)
+		(size 12.7 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "82697a98-ffd5-4da7-9f2e-171a1b17e35b")
+		(property "Sheetname" "MCU"
+			(at 64.77 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 64.77 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "main_board"
+				(path "/ff7f1996-9589-4eab-9c32-416ef4c5b58f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
