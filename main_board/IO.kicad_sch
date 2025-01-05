@@ -412,232 +412,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x05"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_1_1"
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Diode:1N5822"
 			(pin_numbers hide)
 			(pin_names
@@ -1752,7 +1526,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
+		(lib_id "Connector:Conn_01x05_Socket")
 		(at 21.59 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1760,9 +1534,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "75161980-640d-4005-a341-08ac4e1bd003")
-		(property "Reference" "SWD1"
-			(at 21.59 69.85 0)
+		(uuid "5ff74a2d-2bb1-4373-8555-b51f7f108745")
+		(property "Reference" "Conn_SWD_1"
+			(at 22.225 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1770,14 +1544,14 @@
 			)
 		)
 		(property "Value" "SWD"
-			(at 21.59 72.39 0)
+			(at 22.225 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_EH_S5B-EH_1x05_P2.50mm_Horizontal"
 			(at 21.59 81.28 0)
 			(effects
 				(font
@@ -1795,7 +1569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 21.59 81.28 0)
 			(effects
 				(font
@@ -1804,25 +1578,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "f5c40477-9621-4d61-a514-c948d888f802")
+		(pin "3"
+			(uuid "d40bd7d8-28ee-4bb9-974c-c9b73c791430")
 		)
-		(pin "5"
-			(uuid "77a97515-6341-43b9-ae12-bd8abe9725d2")
+		(pin "1"
+			(uuid "d55e63ec-1fd3-42b3-8e81-3502624d58af")
 		)
 		(pin "2"
-			(uuid "bba26b8c-ffe0-423b-b2d6-e42d52924bbd")
+			(uuid "71fa40b6-c047-4fa7-a33a-e79afd4e90ca")
 		)
 		(pin "4"
-			(uuid "6b36a7c7-7b6c-4c42-b156-4ea9a2ea4c01")
+			(uuid "cfd78914-3e23-4b40-9db5-c82e930e7fe5")
 		)
-		(pin "3"
-			(uuid "f6a3ef88-61a7-4d77-9354-94dc88ce22b4")
+		(pin "5"
+			(uuid "894e327c-cba6-4215-bcdf-43e07ff54dcb")
 		)
 		(instances
-			(project ""
+			(project "main_board"
 				(path "/ff7f1996-9589-4eab-9c32-416ef4c5b58f/44739cfa-0bdc-40e4-bf86-d99b591b02e2"
-					(reference "SWD1")
+					(reference "Conn_SWD_1")
 					(unit 1)
 				)
 			)
@@ -2048,7 +1822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_EH_S5B-EH_1x05_P2.50mm_Horizontal"
 			(at 20.32 55.88 0)
 			(effects
 				(font
